@@ -1,0 +1,44 @@
+@import '~styles/variables';
+
+.rect {
+  width: $block-size;
+  height: $block-size;
+  stroke-width: 1;
+  stroke: rgba(255,255,255, .1);
+}
+
+.empty {
+  fill: rgba(255, 255, 255, .2);
+  stroke-width: 0;
+}
+
+.shape-0 {
+  fill: rgba(239,83,80 ,.5);
+}
+.shape-1 {
+  fill: rgba(171,71,188 ,.5);
+}
+.shape-2 {
+  fill: rgba(92,107,192 ,.5);
+}
+.shape-3 {
+  fill: rgba(41,182,246 ,.5);
+}
+.shape-4 {
+  fill: rgba(38,166,154 ,.5);
+}
+.shape-5 {
+  fill: rgba(156,204,101 ,.5);
+}
+.shape-6 {
+  fill: rgba(255,238,88 ,.5);
+}
+.shape-7 {
+  fill: rgba(255,167,38 ,.5);
+}
+.shape-8 {
+  fill: rgba(141,110,99 ,.5);
+}
+.shape-9 {
+  fill: rgba(189,189,189 ,.5);
+}

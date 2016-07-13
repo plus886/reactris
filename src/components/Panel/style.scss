@@ -1,0 +1,19 @@
+@import '~styles/variables';
+
+.section {
+  margin: 15px 0;
+}
+
+.svg {
+  height: 45px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.rect {
+  width: 15px;
+  height: 15px;
+  stroke-width: 1;
+  stroke: rgba(255,255,255, .1);
+  fill: rgba(255,255,255, .5);
+}
