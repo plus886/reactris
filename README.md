@@ -1,6 +1,10 @@
 # Reactris
 
-To start, do `npm install` then `npm start`.
+Playable tetris w/ React + Redux.
+
+## How to build
+
+To build do `npm install` then `npm start`.
 
 ## How to play
 
