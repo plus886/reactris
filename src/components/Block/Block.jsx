@@ -7,7 +7,7 @@ export default class Block extends Component {
         shape: PropTypes.object.isRequired
     }
     
-    getSquares() {
+    get squares() {
         const { shape } = this.props;
 
         return shape.pattern[shape.rotation].map( (e, i) => <Square key={i} x={e[0] + shape.blockPos.x} y={e[1] + shape.blockPos.y} type={shape.type} /> );
@@ -16,7 +16,7 @@ export default class Block extends Component {
     render() {
         return (
             <g>
-                { this.getSquares() }
+                { this.squares }
             </g>
         )
     }

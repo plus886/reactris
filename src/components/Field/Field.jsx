@@ -24,10 +24,6 @@ export default class Field extends Component {
         ));
     }
 
-    get currentBlock() {
-        return <Block shape={this.props.block.current} />;
-    }
-
     render() {
         return (
             <section>

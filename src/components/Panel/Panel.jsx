@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { random } from 'lodash';
 import styles from './style.scss';
 
 
 export default class Panel extends Component {
 
-    getNextShape() {
+    get nextShape() {
         const { next } = this.props;
 
         return next.pattern[0].map( (e, i) => <rect key={i} className={styles.rect} x={e[0] * 15} y={e[1] * 15} /> );
@@ -17,7 +16,7 @@ export default class Panel extends Component {
                 NEXT
                 <svg className={styles.svg}>
                     <g>
-                        {this.getNextShape()}
+                        {this.nextShape}
                     </g>
                 </svg>
             </section>
